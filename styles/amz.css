@@ -1,0 +1,30 @@
+
+            .addtocart-button{
+                color: black;
+                background-color: rgb(228, 228, 94);
+                border: none;
+                border-radius: 18px;
+                height: 34px;
+                width: 100px;
+                margin-right: 4px;
+            }
+            .addtocart-button:hover{
+                background-color: rgb(236, 236, 55);
+            }
+            .buynow-button{
+                color: black;
+                background-color: rgb(210, 153, 48);
+                border: none;
+                border-radius: 18px;
+                height: 34px;
+                width: 100px;
+            }
+            .buynow-button:hover{
+                opacity: 0.7; 
+            
+            }
+            .name-text{
+                font-family: Tahoma;
+                color: aqua;
+            }
+            

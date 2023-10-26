@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(243, 241, 241);
+    z-index: 100;
+}
+
+.left-section{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.dashesimg{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youtubeimg{
+    height: 105px;
+}
+.search-button-header{
+    height: 38px;
+    width: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(227, 224, 224);
+    margin-left: -1px;
+}
+.mike-button{
+    height: 40px;
+    width: 40px;
+}
+.searchicon{
+    width:22px;
+}
+.mikeimg{
+    height: 20px;
+}
+.mike-button{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    margin-left: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(227, 224, 224);
+}
+.search-bar{
+    flex: 1;
+    height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(227, 224, 224);
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    padding: 10px;
+}
+
+.create{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.bellicon{
+    width: 28px;
+    margin-right: 10px;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+
+.bell{
+    position: relative;
+}
+
+.bellnum{
+    top: 0;
+    right: 6px;
+    position: absolute;
+    background-color: rgb(224, 29, 29);
+    color: white;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    padding-left: 5px;
+
+}
